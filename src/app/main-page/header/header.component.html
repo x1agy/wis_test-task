@@ -1,0 +1,22 @@
+<div class="Header">
+    <a href="/" class="mainPageRedirect">Главная</a>
+    <a href="/cart" class="cartPageRedirect">Корзина</a>
+
+    <div class="wishListHolder">
+        <img src="../../../assets/wishlist.png" alt="" class="wishListIcon">
+        <span class="wishListBadge"
+            [style.display]="!wishListLength ? 'block' : 'none'"
+        >{{wishListLength}}</span>
+    </div>
+    <div class="shoppingCartHolder">
+        <a href="/cart"><img src="../../../assets/shopping-cart.png" alt=""></a>
+        <div class="cartInfo">
+            <p class="countInfo">
+                Товаров в корзине: {{productCartLength}}
+            </p>
+            <p class="priceInfo">
+                На общую сумму: {{productCartItemsPrice}}
+            </p>
+        </div>
+    </div>
+</div>

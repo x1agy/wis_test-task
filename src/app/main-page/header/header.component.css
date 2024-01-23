@@ -1,0 +1,53 @@
+.Header{
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+}
+
+a:visited{
+    color: black;
+}
+
+a{
+    color: black;
+    font-size: large;
+}
+
+.cartPageRedirect{
+    margin-left: 20px;
+}
+
+.mainPageRedirect{
+    margin-left: 20px;
+}
+
+.wishListBadge{
+    position: absolute;
+    top: -20%;
+    right: 0;
+    color: red;
+}
+
+.wishListHolder{
+    margin: 10px;
+    position: relative;
+    margin-left: auto;
+}
+
+.shoppingCartHolder{
+    display: flex;
+    align-items: center;
+}
+
+.cartInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+}
+
+p{
+    margin: 0;
+}
